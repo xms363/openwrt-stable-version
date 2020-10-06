@@ -12,15 +12,15 @@ on:
   repository_dispatch:
   release:
     types: published
-  push:
-    branches:
-      - main
-    paths:
-      - 'jq.config'
-  schedule:
-    - cron: 0 21 */3 * *
-  watch:
-    types: started
+ # push:
+ #   branches:
+ #     - main
+ #   paths:
+ #     - 'jq.config'
+ # schedule:
+ #   - cron: 0 21 */3 * *
+ # watch:
+ #   types: started
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/openwrt
