@@ -12,11 +12,11 @@ on:
   repository_dispatch:
   release:
     types: published
-  push:
-    branches:
-      - main
-    paths:
-      - 'ipv6.config'
+#  push:
+#    branches:
+#      - main
+#    paths:
+#      - 'ipv6.config'
 #  schedule:
 #    - cron: 0 21 */7 * *
 #  watch:
