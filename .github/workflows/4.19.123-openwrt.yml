@@ -13,14 +13,14 @@ on:
   release:
     types: published
   push:
-    branches:
-      - main
+#    branches:
+#      - main
     paths:
       - 'zy.config'
-  schedule:
-    - cron: 0 18 */3 * *
-  watch:
-    types: started
+#  schedule:
+#    - cron: 0 18 */3 * *
+#  watch:
+#    types: started
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/openwrt
